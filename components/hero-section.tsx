@@ -7,12 +7,6 @@ import { User } from "lucide-react"
 export function HeroSection() {
   const { t } = useLanguage()
 
-  const stats = [
-    { label: t("hero.gpa10"), value: "9.34" },
-    { label: t("hero.gpa11"), value: "9.56" },
-    { label: "IELTS", value: "6.5" },
-  ]
-
   return (
     <section className="min-h-screen flex items-center justify-center px-4 pt-20 pb-10">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -51,31 +45,9 @@ export function HeroSection() {
           </motion.p>
 
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-            className="flex flex-wrap gap-3"
-          >
-            {stats.map((stat, index) => (
-              <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.6 + index * 0.1 }}
-                className="bg-navy-50 dark:bg-navy-800 px-4 py-2 rounded-full border border-navy-200 dark:border-navy-700"
-              >
-                <span className="text-sm text-muted-foreground">{stat.label}: </span>
-                <span className="font-semibold text-emerald-600 dark:text-emerald-400">
-                  {stat.value}
-                </span>
-              </motion.div>
-            ))}
-          </motion.div>
-
-          <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.9 }}
+            transition={{ delay: 0.5 }}
             className="flex gap-4 pt-4"
           >
             <motion.a
@@ -117,14 +89,6 @@ export function HeroSection() {
               <div className="w-60 h-60 md:w-76 md:h-76 rounded-full bg-emerald-500/20 backdrop-blur-sm flex items-center justify-center border-4 border-white/30">
                 <User className="w-24 h-24 md:w-32 md:h-32 text-white/80" />
               </div>
-            </motion.div>
-            <motion.div
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 1, type: "spring" }}
-              className="absolute -bottom-2 -right-2 bg-navy-900 dark:bg-white text-white dark:text-navy-900 px-4 py-2 rounded-full text-sm font-medium shadow-lg"
-            >
-              CS & AI Enthusiast
             </motion.div>
           </div>
         </motion.div>

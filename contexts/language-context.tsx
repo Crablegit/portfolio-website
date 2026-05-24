@@ -68,6 +68,7 @@ const translations: Record<string, Record<Language, string>> = {
   "contact.message": { en: "Your Message", vi: "Tin nhắn" },
   "contact.send": { en: "Send Message", vi: "Gửi tin nhắn" },
   "contact.directContact": { en: "Direct Contact", vi: "Liên hệ trực tiếp" },
+  "contact.socialTitle": { en: "Connect with me", vi: "Kết nối với mình" },
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
