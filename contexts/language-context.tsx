@@ -46,7 +46,7 @@ const translations: Record<string, Record<Language, string>> = {
   "academic.title": { en: "Academic & Awards", vi: "Học vấn & Giải thưởng" },
   "academic.school": {
     en: "Nguyen Hue High School for the Gifted - Hanoi",
-    vi: "THPT Chuyên Nguyễn Huệ - Hà Nội",
+    vi: "THPT chuyên Nguyễn Huệ - Hà Nội",
   },
   "academic.period": { en: "09/2023 - 06/2026", vi: "09/2023 - 06/2026" },
   "academic.major": { en: "Specialization: Informatics", vi: "Chuyên ngành: Tin học" },
@@ -54,7 +54,7 @@ const translations: Record<string, Record<Language, string>> = {
   "academic.tab2": { en: "Certifications & Courses", vi: "Chứng chỉ & Khóa học" },
 
   // Activities
-  "activities.title": { en: "Extracurricular Activities", vi: "Hoạt động Ngoại khóa" },
+  "activities.title": { en: "Activities", vi: "Hoạt động" },
   "activities.present": { en: "Present", vi: "Hiện tại" },
 
   // Contact

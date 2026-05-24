@@ -71,7 +71,7 @@ export function AboutSection() {
                   <motion.span
                     key={skill}
                     whileHover={{ scale: 1.05 }}
-                    className="px-3 py-1.5 bg-navy-100 dark:bg-navy-800 text-navy-700 dark:text-navy-200 rounded-full text-sm font-medium"
+                    className="px-3 py-1.5 bg-navy-100 dark:bg-navy-700 text-navy-700 dark:text-navy-100 rounded-full text-sm font-medium"
                   >
                     {skill}
                   </motion.span>
