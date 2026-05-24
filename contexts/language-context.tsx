@@ -49,7 +49,7 @@ const translations: Record<string, Record<Language, string>> = {
     vi: "THPT chuyên Nguyễn Huệ - Hà Nội",
   },
   "academic.period": { en: "09/2023 - 06/2026", vi: "09/2023 - 06/2026" },
-  "academic.major": { en: "Specialization: Informatics", vi: "Chuyên ngành: Tin học" },
+  "academic.major": { en: "Specialization: Informatics", vi: "Môn chuyên: Tin học" },
   "academic.tab1": { en: "Olympiads & Competitions", vi: "Giải thưởng & Cuộc thi" },
   "academic.tab2": { en: "Certifications & Courses", vi: "Chứng chỉ & Khóa học" },
 

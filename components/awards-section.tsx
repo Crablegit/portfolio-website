@@ -104,7 +104,7 @@ export function AwardsSection() {
       icon: BookOpen,
     },
     {
-      date: "—",
+      date: "7/2025",
       vi: "Chứng chỉ IELTS 6.5 (British Council)",
       en: "IELTS 6.5 Certificate (British Council)",
       icon: GraduationCap,
